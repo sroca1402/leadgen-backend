@@ -4,11 +4,13 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const cors = require('cors');
 const pLimit = require('p-limit');
+const { ApifyClient } = require('apify-client');
 const app = express();
 app.use(cors());
 app.use(express.json());
 const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
 const APOLLO_API_KEY = process.env.APOLLO_API_KEY;
+const APIFY_API_KEY = process.env.APIFY_API_KEY;
 const BOOKING_PLATFORMS = [
   { name: 'Playbypoint', patterns: ['playbypoint.com', 'playbypoint'] },
   { name: 'CourtReserve', patterns: ['courtreserve.com'] },
@@ -87,6 +89,23 @@ async function enrichWithApollo(website) {
     };
   } catch(e) { console.error('Apollo error:', e.message); return null; }
 }
+async function enrichWithApify(website) {
+  if (!APIFY_API_KEY || !website) return null;
+  try {
+    const client = new ApifyClient({ token: APIFY_API_KEY });
+    const run = await client.actor('vdrmDgJS7SqYMqBHc').call({
+      startUrls: [{ url: website }],
+      maxRequestsPerCrawl: 5,
+    });
+    const { items } = await client.dataset(run.defaultDatasetId).listItems();
+    if (!items || items.length === 0) return null;
+    const item = items[0];
+    return {
+      contactEmail: item.emails?.[0] || null,
+      apifyEnriched: true,
+    };
+  } catch(e) { console.error('Apify error:', e.message); return null; }
+}
 async function searchPlaces(query) {
   const res = await axios.get('https://maps.googleapis.com/maps/api/place/textsearch/json', { params: { query, key: GOOGLE_MAPS_API_KEY } });
   return res.data.results || [];
@@ -134,10 +153,12 @@ app.post('/api/generate-leads', async (req, res) => {
     if (website) try { booking = detectPlatform(await fetchHTML(website)); } catch {}
     let apollo = null;
     if (website) apollo = await enrichWithApollo(website);
+    let apify = null;
+    if (website && !apollo?.contactEmail && !email) apify = await enrichWithApify(website);
     return {
       id: lead.place_id, name: d.name || lead.basic.name, category: lead.category,
       phone: d.international_phone_number || null,
-      email: apollo?.contactEmail || email,
+      email: apollo?.contactEmail || apify?.contactEmail || email,
       website, address: d.formatted_address || lead.basic.formatted_address || null,
       city: parseCity(ac), region: parseRegion(ac), country: parseCountry(ac) || country,
       rating: d.rating || lead.basic.rating || null,
@@ -145,8 +166,9 @@ app.post('/api/generate-leads', async (req, res) => {
       mapsLink: d.url || `https://www.google.com/maps/place/?q=place_id:${lead.place_id}`,
       bookingPlatform: booking.platform, platformConfidence: booking.confidence, platformEvidence: booking.evidence,
       contactName: apollo?.contactName || null, contactTitle: apollo?.contactTitle || null,
-      contactEmail: apollo?.contactEmail || null, contactLinkedIn: apollo?.contactLinkedIn || null,
+      contactEmail: apollo?.contactEmail || apify?.contactEmail || null, contactLinkedIn: apollo?.contactLinkedIn || null,
       apolloEnriched: apollo?.apolloEnriched || false,
+      apifyEnriched: apify?.apifyEnriched || false,
     };
   })));
   res.json({ leads: enriched, total: enriched.length });
