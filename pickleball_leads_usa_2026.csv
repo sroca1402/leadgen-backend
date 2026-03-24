@@ -1,39 +1,54 @@
-#,Club,City,State,Region,Status,Owner / Contact,Email,Phone,Website
-1,Pickleball Kingdom – Plano,Plano,TX,Texas,Grand Opening Mar 28 2026,"Rajesh Byldugula & Suresh Reddy",info@pkplano.com,(469) 595-9773,pickleballkingdom.com/clubs/plano-tx
-2,Pickleball Kingdom – Bryan/College Station,Bryan,TX,Texas,Fall 2026,"Sheryl Miller (Owner), Donnie French (GM)",info@pickleballkingdomcollegestation.com,,pickleballkingdom.com
-3,PickleRage – North Austin,Austin,TX,Texas,Q2 2026,"Dwarakesh Subramanian, Sai Talasia, Sivanaga Kukkapalli",Via picklerage.com/contact,,picklerage.com
-4,Elite Pickleball Club – The Woodlands,Spring,TX,Texas,Summer 2026,Shellton Jean Baptiste (Owner),Via texaselitepickleball.com,(832) 295-8631,texaselitepickleball.com
-5,Texas Pickle Hall – Southtown,San Antonio,TX,Texas,Early 2026,"Zander Komet (CEO), Jesse Diaz (Co-owner)",Via texaspicklehall.com,,texaspicklehall.com
-6,Ace Pickleball Club – Spring,Spring,TX,Texas,2026,TBD,springtx@acepickleballclub.com (inferred),,acepickleballclub.com
-7,Ace Pickleball Club – Sugar Land,Sugar Land,TX,Texas,Spring 2026,TBD,sugarlandtx@acepickleballclub.com (inferred),,acepickleballclub.com
-8,Chicken N Pickle – Allen,Allen,TX,Texas,Grand Opening May 13 2026,,Via chickennpickle.com,,chickennpickle.com
-9,Apex Pickleball Clubs – Cedar Park,Cedar Park,TX,Texas,NOW OPEN,Bill Parodi Jr. (Founder/CEO),Via apexpbclubs.com/contact-us,,apexpbclubs.com
-10,City Pickle USA – Fort Worth,Fort Worth,TX,Texas,NOW OPEN Feb 2 2026,Steve McKeever (Owner),Via citypickleusa.com,,citypickleusa.com
-11,Era Pickleball – The Woodlands,The Woodlands,TX,Texas,OPEN,Christian Tejada (Dir. of Operations),info@erapickleball.com,(346) 814-2230,erapickleball.com
-12,Outlaw Pickle – San Antonio,San Antonio,TX,Texas,NOW OPEN Jan 15 2026,"Ross Krachey (CEO), Romie Chaudhari, Mitch Gelina",Via outlawpickle.com,,outlawpickle.com
-13,The Smash Yard – McKinney,McKinney,TX,Texas,Summer/Fall 2026,"Santosh Sahoo & Anish Katyal (Co-founders)",admin@thesmashyard.com,,thesmashyard.com
-14,Rush – South Austin,Austin,TX,Texas,2026,Nick Sutcliffe (CEO/Founder),Via rush.club,,rush.club
-15,Pickleball Kingdom – Port Richey,Port Richey,FL,Florida,Early 2026,"Jerry Campbell & Dr. Brian Dahmer",info@pkportrichey.com (inferred),,pickleballkingdom.com
-16,Pickleball Kingdom – Ocala,Ocala,FL,Florida,NOW OPEN Feb 28 2026,,Via pickleballkingdom.com,,pickleballkingdom.com
-17,Pickleball Kingdom – Pinellas Park,Pinellas Park,FL,Florida,NOW OPEN Jan 2026,,Via pickleballkingdom.com,,pickleballkingdom.com
-18,PickleRage – Fort Myers,Fort Myers,FL,Florida,Opening Soon,Ed Pickett (Franchisee),Via picklerage.com,,picklerage.com
-19,PickleRage – Jacksonville,Jacksonville,FL,Florida,NOW OPEN,,Via picklerage.com,,picklerage.com
-20,The Paddle Lands – Jacksonville,Jacksonville,FL,Florida,NOW OPEN,Dave (Tournament Director),director@officialoap.com,(407) 961-3125,thepaddlelands.com
-21,The Fort – Fort Lauderdale,Fort Lauderdale,FL,Florida,OPEN (43 courts),"Brad Tuckman & Rich Campillo (Co-founders)",Via playthefort.com,,playthefort.com
-22,Dink House – Largo,Largo,FL,Florida,OPEN,,contact@dinkhouse.com,(727) 612-3595,dinkhouse.com
-23,Pickleball Kingdom – Roseville,Roseville,CA,California,Apr/May 2026,"Parminder Saini, Komal Saini, Megan Cohill",info@pickleballkingdomroseville.com,(916) 775-9170,pickleballkingdom.com/clubs/roseville-ca
-24,PickleRage – New Rochelle,New Rochelle,NY,New York,Mar 26 2026,,Via picklerage.com,,picklerage.com
-25,Ace Pickleball Club – Freehold,Freehold,NJ,New Jersey,2026,TBD,freeholdnj@acepickleballclub.com (inferred),,acepickleballclub.com
-26,Ace Pickleball Club – North Brunswick,North Brunswick,NJ,New Jersey,2026,TBD,northbrunswicknj@acepickleballclub.com (inferred),,acepickleballclub.com
-27,Ace Pickleball Club – Moorestown,Moorestown,NJ,New Jersey,2026,TBD,moorestownnj@acepickleballclub.com (inferred),,acepickleballclub.com
-28,Pickleball Club of Georgia,Atlanta,GA,Southeast,Early 2026,,Via pcga.us,,pcga.us
-29,Rhythm and Rally Sports,Macon,GA,Southeast,2026,,Via choosemacon.com,,rhythmandrally.com
-30,PickleRage – North Charleston,Charleston,SC,Southeast,NOW OPEN Mar 6 2026,,Via picklerage.com,,picklerage.com
-31,Swing Racket and Paddle,Raleigh,NC,Southeast,2026,,Via swingracket.com,,swingracket.com
-32,Cleveland Pickleball Center,Cleveland,OH,Midwest,OPEN,,Via clevelandpickleballcenter.com,,clevelandpickleballcenter.com
-33,The Pickle Lodge,Cincinnati,OH,Midwest,OPEN,,Via thepicklelodge.com,,thepicklelodge.com
-34,Pickleball Kingdom – Vancouver,Vancouver,WA,Pacific Northwest,Coming 2026,Gunn Robison (Franchisee),Via pickleballkingdom.com,,pickleballkingdom.com
-35,Jumbo's Pickleball,Portland/Beaverton,OR,Pacific Northwest,OPEN,,Via jumbospickleball.com,,jumbospickleball.com
-36,Ace Pickleball Club – Aurora,Aurora,CO,Mountain West,2026,TBD,auroraco@acepickleballclub.com (inferred),,acepickleballclub.com
-37,Ace Pickleball Club – Wilmington,Wilmington,DE,Mid-Atlantic,2026,TBD,wilmingtondelaware@acepickleballclub.com (inferred),,acepickleballclub.com
-38,Ace Pickleball Club – Bloomfield,Bloomfield,MI,Midwest,2026,TBD,bloomfieldmi@acepickleballclub.com (inferred),,acepickleballclub.com
+#,Club,City,State,Region,Sport,Status,Owner / Contact,Email,Phone,Website
+1,Pickleball Kingdom – Plano,Plano,TX,Texas,Pickleball,Grand Opening Mar 28 2026,"Rajesh Byldugula & Suresh Reddy",info@pkplano.com,(469) 595-9773,pickleballkingdom.com/clubs/plano-tx
+2,Pickleball Kingdom – Bryan/College Station,Bryan,TX,Texas,Pickleball,Fall 2026,"Sheryl Miller (Owner), Donnie French (GM)",info@pickleballkingdomcollegestation.com,,pickleballkingdom.com
+3,PickleRage – North Austin,Austin,TX,Texas,Pickleball,Q2 2026,"Dwarakesh Subramanian, Sai Talasia, Sivanaga Kukkapalli",Via picklerage.com/contact,,picklerage.com
+4,Elite Pickleball Club – The Woodlands,Spring,TX,Texas,Pickleball,Summer 2026,Shellton Jean Baptiste (Owner),Via texaselitepickleball.com,(832) 295-8631,texaselitepickleball.com
+5,Texas Pickle Hall – Southtown,San Antonio,TX,Texas,Pickleball,Early 2026,"Zander Komet (CEO), Jesse Diaz (Co-owner)",Via texaspicklehall.com,,texaspicklehall.com
+6,Ace Pickleball Club – Spring,Spring,TX,Texas,Pickleball,2026,TBD,springtx@acepickleballclub.com (inferred),,acepickleballclub.com
+7,Ace Pickleball Club – Sugar Land,Sugar Land,TX,Texas,Pickleball,Spring 2026,TBD,sugarlandtx@acepickleballclub.com (inferred),,acepickleballclub.com
+8,Chicken N Pickle – Allen,Allen,TX,Texas,Pickleball,Grand Opening May 13 2026,,Via chickennpickle.com,,chickennpickle.com
+9,Apex Pickleball Clubs – Cedar Park,Cedar Park,TX,Texas,Pickleball,NOW OPEN,Bill Parodi Jr. (Founder/CEO),Via apexpbclubs.com/contact-us,,apexpbclubs.com
+10,City Pickle USA – Fort Worth,Fort Worth,TX,Texas,Pickleball,NOW OPEN Feb 2 2026,Steve McKeever (Owner),Via citypickleusa.com,,citypickleusa.com
+11,Era Pickleball – The Woodlands,The Woodlands,TX,Texas,Pickleball,OPEN,Christian Tejada (Dir. of Operations),info@erapickleball.com,(346) 814-2230,erapickleball.com
+12,Outlaw Pickle – San Antonio,San Antonio,TX,Texas,Pickleball,NOW OPEN Jan 15 2026,"Ross Krachey (CEO), Romie Chaudhari, Mitch Gelina",Via outlawpickle.com,,outlawpickle.com
+13,The Smash Yard – McKinney,McKinney,TX,Texas,Pickleball,Summer/Fall 2026,"Santosh Sahoo & Anish Katyal (Co-founders)",admin@thesmashyard.com,,thesmashyard.com
+14,Rush – South Austin,Austin,TX,Texas,Pickleball + Padel,2026,Nick Sutcliffe (CEO/Founder),Via rush.club,,rush.club
+15,Pickleball Country Club,Houston,TX,Texas,Pickleball,OPEN,Rommie (Managing Partner),Via pickleball-cc.com,(346) 409-1898,pickleball-cc.com
+16,Pickle Point – Katy,Katy,TX,Texas,Pickleball,OPEN,,Via clubpicklepoint.com/contact-us,(832) 447-6573,clubpicklepoint.com/katy
+17,Pickle Point – Cypress,Cypress,TX,Texas,Pickleball,OPEN,,Via clubpicklepoint.com/contact-us,,clubpicklepoint.com/cypress
+18,At Fault – Farmers Branch,Farmers Branch,TX,Texas,Pickleball,OPEN,,Via at-fault.com,,at-fault.com
+19,Preston Playhouse,Dallas,TX,Texas,Pickleball,OPEN,,Via prestonpickleball.com,,prestonpickleball.com
+20,Oasis Pickleball Club,Rockwall,TX,Texas,Pickleball,OPEN,,Via oasispickleballclub.com,,oasispickleballclub.com
+21,Padel39 – North Austin (Domain),Austin,TX,Texas,Padel,OPEN Oct 2024,William Boyce (Founder) & Naomi Boyce,Via padel39.com,+1 737-587-2994,padel39.com
+22,Padel39 – East Austin,Austin,TX,Texas,Padel,Opening Mar 2026,William Boyce (Founder) & Naomi Boyce,Via padel39.com,+1 737-587-2994,padel39.com/locations/east-austin-tx
+23,Padel39 – Carrollton (Dallas),Carrollton,TX,Texas,Padel,Summer 2026,William Boyce (Founder) & Naomi Boyce,Via padel39.com,+1 737-587-2994,padel39.com
+24,The Padel Collective,Austin,TX,Texas,Padel,Spring 2026,"Yaro Kazakov & Daria Dergileva (Founders)",Via padelcollective.com,,padelcollective.com
+25,Austin Padel Center,Austin,TX,Texas,Padel,Full opening Q3 2026 (pop-up Feb 1 2026),Benno van Veggel (Founder) / Metis Capital,Via metiscre.com,,metiscre.com
+26,PDL Sports & Social Club,San Antonio,TX,Texas,Padel + Pickleball,Summer 2026,Alberto Mosqueda (CEO – PDL Sports Group),Via pdlsportsgroup.com,,pdlsportsgroup.com
+27,King of Padel – San Antonio,San Antonio,TX,Texas,Padel + Pickleball,OPEN,,Via thekingofpadel.com,(210) 310-3228,thekingofpadel.com
+28,U-Padel – The Woodlands,The Woodlands,TX,Texas,Padel,OPEN,Ruben Gonzales (Owner),Via upadel.us,,upadel.us
+29,U-Padel – San Antonio (2nd location),San Antonio,TX,Texas,Padel,Opening 2026,Ruben Gonzales (Owner),Via upadel.us/san-antonio,,upadel.us/san-antonio
+30,Pickleball Kingdom – Port Richey,Port Richey,FL,Florida,Pickleball,Early 2026,"Jerry Campbell & Dr. Brian Dahmer",info@pkportrichey.com (inferred),,pickleballkingdom.com
+31,Pickleball Kingdom – Ocala,Ocala,FL,Florida,Pickleball,NOW OPEN Feb 28 2026,,Via pickleballkingdom.com,,pickleballkingdom.com
+32,Pickleball Kingdom – Pinellas Park,Pinellas Park,FL,Florida,Pickleball,NOW OPEN Jan 2026,,Via pickleballkingdom.com,,pickleballkingdom.com
+33,PickleRage – Fort Myers,Fort Myers,FL,Florida,Pickleball,Opening Soon,Ed Pickett (Franchisee),Via picklerage.com,,picklerage.com
+34,PickleRage – Jacksonville,Jacksonville,FL,Florida,Pickleball,NOW OPEN,,Via picklerage.com,,picklerage.com
+35,The Paddle Lands – Jacksonville,Jacksonville,FL,Florida,Pickleball,NOW OPEN,Dave (Tournament Director),director@officialoap.com,(407) 961-3125,thepaddlelands.com
+36,The Fort – Fort Lauderdale,Fort Lauderdale,FL,Florida,Pickleball,OPEN (43 courts),"Brad Tuckman & Rich Campillo (Co-founders)",Via playthefort.com,,playthefort.com
+37,Dink House – Largo,Largo,FL,Florida,Pickleball,OPEN,,contact@dinkhouse.com,(727) 612-3595,dinkhouse.com
+38,Pickleball Kingdom – Roseville,Roseville,CA,California,Pickleball,Apr/May 2026,"Parminder Saini, Komal Saini, Megan Cohill",info@pickleballkingdomroseville.com,(916) 775-9170,pickleballkingdom.com/clubs/roseville-ca
+39,PickleRage – New Rochelle,New Rochelle,NY,New York,Pickleball,Mar 26 2026,,Via picklerage.com,,picklerage.com
+40,Ace Pickleball Club – Freehold,Freehold,NJ,New Jersey,Pickleball,2026,TBD,freeholdnj@acepickleballclub.com (inferred),,acepickleballclub.com
+41,Ace Pickleball Club – North Brunswick,North Brunswick,NJ,New Jersey,Pickleball,2026,TBD,northbrunswicknj@acepickleballclub.com (inferred),,acepickleballclub.com
+42,Ace Pickleball Club – Moorestown,Moorestown,NJ,New Jersey,Pickleball,2026,TBD,moorestownnj@acepickleballclub.com (inferred),,acepickleballclub.com
+43,Pickleball Club of Georgia,Atlanta,GA,Southeast,Pickleball,Early 2026,,Via pcga.us,,pcga.us
+44,Rhythm and Rally Sports,Macon,GA,Southeast,Pickleball,2026,,Via choosemacon.com,,rhythmandrally.com
+45,PickleRage – North Charleston,Charleston,SC,Southeast,Pickleball,NOW OPEN Mar 6 2026,,Via picklerage.com,,picklerage.com
+46,Swing Racket and Paddle,Raleigh,NC,Southeast,Pickleball + Padel,2026,,Via swingracket.com,,swingracket.com
+47,Cleveland Pickleball Center,Cleveland,OH,Midwest,Pickleball,OPEN,,Via clevelandpickleballcenter.com,,clevelandpickleballcenter.com
+48,The Pickle Lodge,Cincinnati,OH,Midwest,Pickleball,OPEN,,Via thepicklelodge.com,,thepicklelodge.com
+49,Pickleball Kingdom – Vancouver,Vancouver,WA,Pacific Northwest,Pickleball,Coming 2026,Gunn Robison (Franchisee),Via pickleballkingdom.com,,pickleballkingdom.com
+50,Jumbo's Pickleball,Portland/Beaverton,OR,Pacific Northwest,Pickleball,OPEN,,Via jumbospickleball.com,,jumbospickleball.com
+51,Ace Pickleball Club – Aurora,Aurora,CO,Mountain West,Pickleball,2026,TBD,auroraco@acepickleballclub.com (inferred),,acepickleballclub.com
+52,Ace Pickleball Club – Wilmington,Wilmington,DE,Mid-Atlantic,Pickleball,2026,TBD,wilmingtondelaware@acepickleballclub.com (inferred),,acepickleballclub.com
+53,Ace Pickleball Club – Bloomfield,Bloomfield,MI,Midwest,Pickleball,2026,TBD,bloomfieldmi@acepickleballclub.com (inferred),,acepickleballclub.com
