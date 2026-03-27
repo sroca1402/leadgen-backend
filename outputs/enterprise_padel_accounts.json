@@ -1,288 +1,206 @@
 {
   "meta": {
-    "generated_at": "2026-03-27",
-    "status": "PARTIAL — WebSearch rate limit hit. Rerun after 6pm UTC for Germany, Belgium, Sweden deeper searches.",
-    "total_accounts": 24,
-    "high_priority": 18,
-    "medium_priority": 6,
-    "countries_covered": ["Switzerland", "Netherlands", "France", "UK", "Sweden", "Austria", "UAE", "Australia", "USA"],
-    "countries_pending_deeper_search": ["Germany", "Belgium", "Denmark", "Finland", "Norway"],
-    "padelta_profile": {
-      "description": "Reference account — 10+ Swiss locations, Playtomic confirmed, academy + events + bar/bistro",
-      "ideal_target_criteria": ["2-20 locations under one brand", "Playtomic as current booking tool", "Has academy or coaching", "Runs leagues or tournaments", "Events/corporate offering", "F&B on premises"]
-    },
-    "top_priority_targets": [
-      "The Padellers (NL/DE) — 24 locations, Playtomic confirmed, corporate events",
-      "PadelShot (FR) — 11+ locations, €5M raised, no software mentioned",
-      "Padeldome (AT) — 4 Vienna locations, using etennis (displaceable)",
-      "PADELZONE (AT) — 5+ locations, using Eversports (displaceable)",
-      "Padel Pro UAE — 3 Dubai locations, academy + leagues + events",
-      "WPA UAE — 4 locations across Emirates, corporate wellness",
-      "Padel Kingdom — 3 locations 2 countries",
-      "Racquet Club AU — Playtomic confirmed, expanding",
-      "Padel Zenter — Zlatan brand, Sweden+Italy, franchising launch"
-    ]
+    "generated_at": "2026-03-27T15:38:27.544Z",
+    "total_operators": 19,
+    "high_priority": 16,
+    "medium_priority": 3,
+    "sources": [
+      "padellands.com",
+      "google-search",
+      "operator-websites"
+    ],
+    "pitch": "Replace Playtomic/Eversports/etennis with Playbypoint all-in-one: bookings + memberships + F&B + leagues + multi-location dashboard"
   },
   "accounts": [
     {
       "brand": "Padelta",
-      "locations_count": "10+",
-      "countries": "Switzerland",
-      "cities": "Zürich, Baden, Zug, Solothurn, Luzern, Thun, Chur",
       "website": "https://padelta.ch",
+      "countries": "Switzerland",
       "current_software": "Playtomic",
-      "features": ["academy", "events", "bar/bistro", "co-working", "leagues"],
       "priority": "HIGH",
-      "notes": "Reference account. DEMO BOOKED. National padel center partner with Swiss Tennis."
-    },
-    {
-      "brand": "The Padellers",
-      "locations_count": 24,
-      "countries": "Netherlands, Germany",
-      "cities": "Amsterdam, Veldhoven, Rosmalen, Breda, Groningen + others. Also Germany.",
-      "website": "https://www.thepadellers.nl",
-      "current_software": "Playtomic",
-      "features": ["lessons", "events", "tournaments", "corporate", "no membership required"],
-      "priority": "HIGH",
-      "notes": "24 NL locations expanding to 30. Also thepadellers.de in Germany. Playtomic confirmed. Corporate battle events. Perfect displacement target."
-    },
-    {
-      "brand": "Peakz Padel",
-      "locations_count": 8,
-      "countries": "Netherlands",
-      "cities": "Utrecht (flagship, 14 courts) + 7 others",
-      "website": "https://peakzpadel.nl",
-      "current_software": "Playtomic (likely)",
-      "features": [],
-      "priority": "HIGH",
-      "notes": "Formerly Play Padel Club. 8 centers NL."
-    },
-    {
-      "brand": "Padelclub Nederland",
-      "locations_count": 14,
-      "countries": "Netherlands",
-      "cities": "Asperen, Alphen aan den Rijn, Druten + others",
-      "website": "",
-      "current_software": "Unknown",
-      "features": ["fitness", "squash", "tennis"],
-      "priority": "MEDIUM",
-      "notes": "Multi-sport chain. 14 clubs. May have own booking system."
-    },
-    {
-      "brand": "Plaza Padel",
-      "locations_count": 2,
-      "countries": "Netherlands",
-      "website": "",
-      "current_software": "Unknown",
-      "features": [],
-      "priority": "MEDIUM",
-      "notes": "Newest NL chain. 2 centers including largest in country. Early stage."
-    },
-    {
-      "brand": "4PADEL",
-      "locations_count": "70+",
-      "countries": "France, Germany",
-      "website": "https://4padel.com",
-      "current_software": "Proprietary (likely)",
-      "features": ["academy", "leagues", "tournaments", "corporate", "events"],
-      "priority": "MEDIUM",
-      "notes": "Too large for standard pitch — needs enterprise deal. 12 new sites 2026. Part of PLAYERS Group."
+      "notes": "DEMO BOOKED. 10+ Swiss locations.",
+      "locations_count": "?",
+      "features": ""
     },
     {
       "brand": "PadelShot",
-      "locations_count": "11+",
-      "countries": "France",
-      "cities": "Caen, Saint-Étienne, Lyon, Metz, Tours, Reims, Forbach + 4 new Q1 2026",
       "website": "https://padelshot.fr",
-      "current_software": "Unknown",
-      "features": ["academy", "leagues", "events", "bar/lounge"],
+      "countries": "France",
       "priority": "HIGH",
-      "notes": "Raised €5M. Franchise network expanding aggressively. No software publicly mentioned. 4 openings Q1 2026."
+      "notes": "Raised €5M. 11+ clubs. No software mentioned publicly.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
     },
     {
       "brand": "Game4Padel",
-      "locations_count": "23+",
-      "countries": "UK, Spain, Australia, New Zealand",
       "website": "https://game4padel.com",
-      "current_software": "Unknown",
-      "features": ["leagues", "coaching", "events", "corporate", "social"],
+      "countries": "UK, Spain, Australia, New Zealand",
       "priority": "HIGH",
-      "notes": "UK's largest padel operator. 23+ venues. Partnered with GOALS football centres. Doubling footprint 2025."
+      "notes": "UK's largest. 23+ venues. Doubling 2025.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
     },
     {
-      "brand": "Padel People",
-      "locations_count": "3+",
-      "countries": "UK",
-      "cities": "Wimbledon + others",
-      "website": "https://padelpeople.co.uk",
+      "brand": "The Padellers",
+      "website": "https://www.thepadellers.nl",
+      "countries": "Netherlands, Germany",
+      "current_software": "Playtomic",
+      "priority": "HIGH",
+      "notes": "24 NL locations → 30. Also Germany.",
+      "locations_count": "?",
+      "features": ""
+    },
+    {
+      "brand": "Peakz Padel",
+      "website": "https://peakzpadel.nl",
+      "countries": "Netherlands",
+      "priority": "HIGH",
+      "notes": "8 centers. Formerly Play Padel Club.",
+      "locations_count": "?",
       "current_software": "Unknown",
-      "features": ["coaching", "community", "social", "events"],
-      "priority": "MEDIUM",
-      "notes": "Shop-in-shop franchise model. Wimbledon presence. Hybrid Fitness partnership."
+      "features": ""
     },
     {
       "brand": "Padel Zenter",
-      "locations_count": "2+",
-      "countries": "Sweden, Italy",
-      "cities": "Stockholm/Årsta (Sweden), Italy",
       "website": "https://www.padelzenter.se",
-      "current_software": "Unknown",
-      "features": ["academy", "tournaments", "events", "franchising"],
+      "countries": "Sweden, Italy",
       "priority": "HIGH",
-      "notes": "Founded by Zlatan Ibrahimović. Premium brand. International franchising launching 2026. Sweden + Italy."
-    },
-    {
-      "brand": "Every Padel",
-      "locations_count": "5+",
-      "countries": "Sweden",
-      "cities": "Kista (Stockholm) + others",
-      "website": "",
-      "current_software": "Playtomic (likely)",
-      "features": ["leagues", "coaching"],
-      "priority": "MEDIUM",
-      "notes": "Part of Everysport group. Multiple Sweden locations."
-    },
-    {
-      "brand": "PDLU (PDL + Padel United)",
-      "locations_count": 118,
-      "countries": "Sweden, Denmark, Finland, Norway, Switzerland",
-      "website": "https://pdlu.com",
-      "current_software": "Proprietary (likely)",
-      "features": ["academy", "leagues", "tournaments", "shop", "memberships"],
-      "priority": "MEDIUM",
-      "notes": "World's largest padel operator. Too large — likely custom tech. PDL Zurich is their Swiss club."
+      "notes": "Founded by Zlatan. Franchising 2026.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
     },
     {
       "brand": "Padeldome",
-      "locations_count": 4,
-      "countries": "Austria",
-      "cities": "Vienna (Alte Donau; Alterlaa; Erdberg; Süßenbrunn)",
       "website": "",
+      "countries": "Austria",
       "current_software": "etennis",
-      "features": ["lessons", "cafeteria", "corporate"],
       "priority": "HIGH",
-      "notes": "4 Vienna locations. Uses etennis — generic, not padel-specific. Clear Playbypoint displacement opportunity."
+      "notes": "4 Vienna locations. etennis = displaceable.",
+      "locations_count": "?",
+      "features": ""
     },
     {
       "brand": "PADELZONE",
-      "locations_count": "5+",
-      "countries": "Austria",
-      "cities": "Vienna (Colony Club; Floridsdorf; Sportinsel); Wiener Neustadt",
       "website": "https://padelzone.at",
-      "current_software": "Eversports",
-      "features": ["lessons", "events", "indoor + outdoor"],
-      "priority": "HIGH",
-      "notes": "Multiple Vienna + Wiener Neustadt. Uses Eversports — generic tool. Strong displacement pitch."
-    },
-    {
-      "brand": "Padelbase",
-      "locations_count": "3+",
       "countries": "Austria",
-      "cities": "Vienna + others",
-      "website": "https://www.padelbase.at",
-      "current_software": "Unknown",
-      "features": [],
-      "priority": "MEDIUM",
-      "notes": "Austria-wide chain. Needs further research."
+      "current_software": "Eversports",
+      "priority": "HIGH",
+      "notes": "5+ Vienna + Wiener Neustadt. Eversports = displaceable.",
+      "locations_count": "?",
+      "features": ""
     },
     {
       "brand": "Padel Pro UAE",
-      "locations_count": 3,
-      "countries": "UAE",
-      "cities": "Dubai (Jumeirah Park; Al Quoz; One Central)",
       "website": "https://padelpro.ae",
-      "current_software": "Unknown",
-      "features": ["academy (adults + kids)", "leagues", "social events", "corporate"],
+      "countries": "UAE",
       "priority": "HIGH",
-      "notes": "First standalone padel club in Middle East (2017). 3 Dubai locations. Full op stack: academy + competitive + events."
+      "notes": "3 Dubai locations. Academy + leagues.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
     },
     {
       "brand": "World Padel Academy (WPA)",
-      "locations_count": 4,
-      "countries": "UAE",
-      "cities": "Dubai, Abu Dhabi, Sharjah, Khor Fakkan",
       "website": "https://wpa.ae",
-      "current_software": "Unknown",
-      "features": ["coaching", "corporate wellness", "events", "tournaments", "community"],
+      "countries": "UAE",
       "priority": "HIGH",
-      "notes": "4 locations across multiple Emirates. Corporate wellness = enterprise clients. Multi-emirate ops."
+      "notes": "4 locations (Dubai, Abu Dhabi, Sharjah, Khor Fakkan).",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
     },
     {
       "brand": "Padel Kingdom",
-      "locations_count": 3,
-      "countries": "UAE, Bahrain",
-      "cities": "Dubai, Abu Dhabi, Bahrain",
       "website": "https://thepadelkingdom.com",
-      "current_software": "Unknown",
-      "features": ["coaching", "tournaments", "social events", "kids camps"],
+      "countries": "UAE, Bahrain",
       "priority": "HIGH",
-      "notes": "3 locations across 2 countries. Cross-border ops = pain point for patchwork tools."
+      "notes": "3 locations 2 countries.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
     },
     {
       "brand": "Top Padel Sports Club",
-      "locations_count": 3,
-      "countries": "UAE",
-      "cities": "Dubai, Sharjah",
       "website": "https://toppadelsc.com",
-      "current_software": "Unknown",
-      "features": ["coaching", "kids camps", "tournaments", "socials", "pickleball"],
-      "priority": "HIGH",
-      "notes": "3 locations. Pickleball = multi-sport complexity. Matchmaking socials. Good pitch target."
-    },
-    {
-      "brand": "Just Padel",
-      "locations_count": "2+",
       "countries": "UAE",
-      "cities": "Dubai",
-      "website": "https://justpadel.ae",
+      "priority": "HIGH",
+      "notes": "3 locations Dubai + Sharjah.",
+      "locations_count": "?",
       "current_software": "Unknown",
-      "features": [],
-      "priority": "MEDIUM",
-      "notes": "Dubai operator. Needs further research on location count and features."
+      "features": ""
     },
     {
-      "brand": "Indoor Padel Australia (IPA)",
-      "locations_count": 2,
-      "countries": "Australia",
-      "cities": "Alexandria (Sydney); Northern Beaches/Cromer (Sydney)",
+      "brand": "Indoor Padel Australia",
       "website": "https://www.indoorpadel.com.au",
-      "current_software": "Unknown",
-      "features": ["coaching", "social sessions", "memberships"],
-      "priority": "HIGH",
-      "notes": "Largest padel club in Australia (8 indoor + 2 outdoor in Alexandria). Opened 2nd location 2024. Growing fast."
-    },
-    {
-      "brand": "Game4Padel Australia",
-      "locations_count": 2,
       "countries": "Australia",
-      "cities": "Docklands (Melbourne); Richmond (Melbourne)",
-      "website": "https://game4padel.com.au",
-      "current_software": "Unknown",
-      "features": ["coaching", "leagues", "socials", "pickleball"],
       "priority": "HIGH",
-      "notes": "2 Melbourne locations. Part of UK Game4Padel. Pickleball = multi-sport. Premium water view venue."
+      "notes": "2 Sydney locations. Largest in AU.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
     },
     {
       "brand": "Racquet Club",
-      "locations_count": "2+",
-      "countries": "Australia",
-      "cities": "Sydney; Canberra",
       "website": "https://racquetclub.com.au",
+      "countries": "Australia",
       "current_software": "Playtomic",
-      "features": ["court bookings", "community"],
       "priority": "HIGH",
-      "notes": "Sydney + Canberra. Playtomic confirmed. More locations coming. Perfect timing for conversion."
+      "notes": "Sydney + Canberra. Playtomic confirmed.",
+      "locations_count": "?",
+      "features": ""
+    },
+    {
+      "brand": "Game4Padel Australia",
+      "website": "https://game4padel.com.au",
+      "countries": "Australia",
+      "priority": "HIGH",
+      "notes": "2 Melbourne locations.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
     },
     {
       "brand": "Padel Haus",
-      "locations_count": 7,
-      "countries": "USA",
-      "cities": "NYC (x3), Nashville, Atlanta, Denver",
       "website": "https://padel.haus",
-      "current_software": "Unknown",
-      "features": ["academy", "pro shop", "juice bar", "locker rooms", "events", "memberships"],
+      "countries": "USA",
       "priority": "HIGH",
-      "notes": "Playbypoint social proof customer. $18M total funding. Premium positioning. Tripling footprint."
+      "notes": "Playbypoint social proof. $18M funded. 7 locations.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
+    },
+    {
+      "brand": "4PADEL",
+      "website": "https://4padel.com",
+      "countries": "France, Germany",
+      "priority": "MEDIUM",
+      "notes": "70+ locations. Likely proprietary tech.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
+    },
+    {
+      "brand": "PDLU (PDL + Padel United)",
+      "website": "https://pdlu.com",
+      "countries": "Sweden, Denmark, Finland, Norway, Switzerland",
+      "priority": "MEDIUM",
+      "notes": "World largest. 118 halls. Likely custom tech.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
+    },
+    {
+      "brand": "Padelbase",
+      "website": "https://www.padelbase.at",
+      "countries": "Austria",
+      "priority": "MEDIUM",
+      "notes": "Austria-wide chain.",
+      "locations_count": "?",
+      "current_software": "Unknown",
+      "features": ""
     }
   ]
 }
