@@ -173,5 +173,50 @@ app.post('/api/generate-leads', async (req, res) => {
   })));
   res.json({ leads: enriched, total: enriched.length });
 });
+// ─── Scraper endpoints ─────────────────────────────────────────────────────────
+const { execFile } = require('child_process');
+const path = require('path');
+
+function runScraper(script, res) {
+  const scriptPath = path.join(__dirname, script);
+  res.setHeader('Content-Type', 'text/plain');
+  res.setHeader('Transfer-Encoding', 'chunked');
+
+  const child = execFile('node', [scriptPath], { cwd: __dirname });
+
+  child.stdout.on('data', d => res.write(d));
+  child.stderr.on('data', d => res.write(`[stderr] ${d}`));
+  child.on('close', code => {
+    res.write(`\n[done] exit code ${code}\n`);
+    res.end();
+  });
+  child.on('error', e => {
+    res.write(`[error] ${e.message}\n`);
+    res.end();
+  });
+}
+
+// POST /api/scrape/padel-enterprise  → runs scrape-padel-enterprise.js, streams output
+app.post('/api/scrape/padel-enterprise', (req, res) => runScraper('scrape-padel-enterprise.js', res));
+
+// POST /api/scrape/golf-sims  → runs scrape-golf-sims.js, streams output
+app.post('/api/scrape/golf-sims', (req, res) => runScraper('scrape-golf-sims.js', res));
+
+// GET /api/leads/padel-enterprise  → returns saved CSV/JSON
+app.get('/api/leads/padel-enterprise', (req, res) => {
+  const fmt = req.query.format === 'json' ? 'enterprise_padel_accounts.json' : 'enterprise_padel_accounts.csv';
+  const filePath = path.join(__dirname, 'outputs', fmt);
+  if (!require('fs').existsSync(filePath)) return res.status(404).json({ error: 'Not found. Run POST /api/scrape/padel-enterprise first.' });
+  res.sendFile(filePath);
+});
+
+// GET /api/leads/golf-sims  → returns saved CSV/JSON
+app.get('/api/leads/golf-sims', (req, res) => {
+  const fmt = req.query.format === 'json' ? 'golf_sim_leads_raw.json' : 'golf_sim_leads.csv';
+  const filePath = path.join(__dirname, 'outputs', fmt);
+  if (!require('fs').existsSync(filePath)) return res.status(404).json({ error: 'Not found. Run POST /api/scrape/golf-sims first.' });
+  res.sendFile(filePath);
+});
+
 app.get('/api/health', (_, res) => res.json({ status: 'ok' }));
 app.listen(3001, () => console.log('LeadGen backend running on port 3001'));

@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "scrape:padel": "node scrape-padel-enterprise.js",
+    "scrape:golf": "node scrape-golf-sims.js",
+    "scrape:all": "node scrape-padel-enterprise.js && node scrape-golf-sims.js"
   },
   "keywords": [],
   "author": "",
