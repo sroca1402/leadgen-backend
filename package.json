@@ -7,8 +7,8 @@
     "start": "node server.js",
     "scrape:padel": "node scrape-padel-enterprise.js",
     "scrape:golf": "node scrape-golf-sims.js",
-    "scrape:yourgolfbooking": "node scrape-yourgolfbooking.js",
-    "scrape:all": "node scrape-padel-enterprise.js && node scrape-golf-sims.js && node scrape-yourgolfbooking.js"
+    "scrape:yourgolfbooking": "node scrapers/yourgolfbooking.js",
+    "scrape:all": "node scrape-padel-enterprise.js && node scrape-golf-sims.js && node scrapers/yourgolfbooking.js"
   },
   "keywords": [],
   "author": "",
